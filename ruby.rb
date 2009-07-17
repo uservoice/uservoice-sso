@@ -8,8 +8,8 @@ module Uservoice
   class Token
     attr_accessor :data
     
-    USERVOICE_ACCOUNT_KEY = "<%= account_key %>"
-    USERVOICE_API_KEY = "<%= api_key %>"
+    USERVOICE_ACCOUNT_KEY = "YOUR_ACCOUNT_KEY"
+    USERVOICE_API_KEY = "YOUR_API_KEY"
     
     def initialize(options = {})
       {:expires => (Time.now + 5 * 60).to_s}.merge!(options)

@@ -17,8 +17,8 @@ message = {
 block_size = 16
 mode = AES.MODE_CBC
 
-api_key = "<%= api_key %>"
-account_key = '<%= account_key %>'
+api_key = "YOUR_API_KEY"
+account_key = 'YOUR_ACCOUNT_KEY'
 iv = "OpenSSL for Ruby"
 
 json = json.dumps(message, separators=(',',':'))

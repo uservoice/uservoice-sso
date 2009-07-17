@@ -18,8 +18,8 @@ sub new {
   my $class = shift;	
   my $self = {};
 
-  $self->{'account_key'} = "<%= account_key %>";
-  $self->{'api_key'} = '<%= api_key %>';
+  $self->{'account_key'} = "YOUR_ACCOUNT_KEY";
+  $self->{'api_key'} = 'YOUR_API_KEY';
   $self->{'iv'} = "OpenSSL for Ruby";
   $self->{'meth'} = "Crypt::Rijndael";
 

@@ -19,8 +19,8 @@ using System.Security.Cryptography;
 namespace Uservoice {
   public class Generator {
     static string create(string userDetails) { 
-      string accountKey = "<%= account_key %>";
-      string apiKey = "<%= api_key %>";        
+      string accountKey = "YOUR_ACCOUNT_KEY";
+      string apiKey = "YOUR_API_KEY";        
       string initVector = "OpenSSL for Ruby"; // DO NOT CHANGE
 
       byte[] initVectorBytes = Encoding.UTF8.GetBytes(initVector);

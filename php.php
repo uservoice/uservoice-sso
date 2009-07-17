@@ -1,6 +1,6 @@
 &lt;?php
-$account_key = "<%= account_key %>";
-$api_key = "<%= api_key %>";
+$account_key = "YOUR_ACCOUNT_KEY";
+$api_key = "YOUR_API_KEY";
 
 $salted = $api_key . $account_key;
 $hash = hash('sha1',$salted,true);

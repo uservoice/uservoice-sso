@@ -24,8 +24,8 @@ import org.json.JSONObject;
  * Requires commons-codec library {@link http://commons.apache.org/codec/}.
  */
 public class TokenGenerator {
-  private static final String ACCOUNT_KEY = "<%= account_key %>";
-  private static final String API_KEY = "<%= api_key %>";    
+  private static final String ACCOUNT_KEY = "YOUR_ACCOUNT_KEY";
+  private static final String API_KEY = "YOUR_API_KEY";    
   private static final byte[] INIT_VECTOR = "OpenSSL for Ruby".getBytes();  
   private SecretKeySpec secretKeySpec;
   private IvParameterSpec ivSpec;
