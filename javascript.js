@@ -36,16 +36,3 @@ export default (user) => {
   const encoded = encodeURIComponent(token.toString('base64'))
   return encoded
 }
-
-// USAGE
-import uservoiceSSO from './uservoiceSSO'
-const encoded = uservoiceSSO({
-  avatar_url
-, display_name
-, email
-, expires
-, guid
-, trusted
-, url
-})
-res.redirect(`https://foo.bar?sso=${encoded}`) // express res object
